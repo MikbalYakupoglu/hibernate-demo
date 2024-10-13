@@ -1,9 +1,9 @@
-package org.nakoual.hibernate1.exception;
+package org.nakoual.hibernatedemo.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.nakoual.hibernate1.dto.result.Cause;
-import org.nakoual.hibernate1.dto.result.ExceptionResult;
-import org.nakoual.hibernate1.dto.result.FailureResult;
+import org.nakoual.hibernatedemo.dto.result.Cause;
+import org.nakoual.hibernatedemo.dto.result.ExceptionResult;
+import org.nakoual.hibernatedemo.dto.result.FailureResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
-package org.nakoual.hibernate1.mapper;
+package org.nakoual.hibernatedemo.mapper;
 
-import org.nakoual.hibernate1.entity.Person;
+import org.nakoual.hibernatedemo.entity.Person;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

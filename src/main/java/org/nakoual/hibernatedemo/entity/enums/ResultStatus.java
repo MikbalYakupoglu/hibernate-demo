@@ -1,4 +1,4 @@
-package org.nakoual.hibernate1.entity.enums;
+package org.nakoual.hibernatedemo.entity.enums;
 
 import lombok.Getter;
 

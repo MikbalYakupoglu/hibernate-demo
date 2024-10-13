@@ -1,14 +1,12 @@
-package org.nakoual.hibernate1.controller;
+package org.nakoual.hibernatedemo.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class FaviconController {
 
     @GetMapping ("favicon.ico")
-    @ResponseBody
     void returnNoFavicon() {
         // favicon.ico isteğini boş döner
     }

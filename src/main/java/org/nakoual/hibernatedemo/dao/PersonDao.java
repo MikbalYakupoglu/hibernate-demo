@@ -1,6 +1,6 @@
-package org.nakoual.hibernate1.dao;
+package org.nakoual.hibernatedemo.dao;
 
-import org.nakoual.hibernate1.entity.Person;
+import org.nakoual.hibernatedemo.entity.Person;
 
 import java.sql.SQLException;
 import java.util.List;

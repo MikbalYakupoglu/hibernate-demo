@@ -1,4 +1,4 @@
-package org.nakoual.hibernate1.entity;
+package org.nakoual.hibernatedemo.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

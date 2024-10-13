@@ -1,10 +1,9 @@
-package org.nakoual.hibernate1.controller;
+package org.nakoual.hibernatedemo.controller;
 
-import org.nakoual.hibernate1.dao.PersonDao;
-import org.nakoual.hibernate1.dto.result.Result;
-import org.nakoual.hibernate1.dto.result.SuccessResult;
-import org.nakoual.hibernate1.entity.Person;
-import org.nakoual.hibernate1.exception.NotFoundException;
+import org.nakoual.hibernatedemo.dao.PersonDao;
+import org.nakoual.hibernatedemo.dto.result.SuccessResult;
+import org.nakoual.hibernatedemo.entity.Person;
+import org.nakoual.hibernatedemo.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;

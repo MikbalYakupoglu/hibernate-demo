@@ -1,8 +1,8 @@
-package org.nakoual.hibernate1.dto.result;
+package org.nakoual.hibernatedemo.dto.result;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.nakoual.hibernate1.entity.enums.ResultStatus;
+import org.nakoual.hibernatedemo.entity.enums.ResultStatus;
 
 @EqualsAndHashCode(callSuper = true)
 @Data

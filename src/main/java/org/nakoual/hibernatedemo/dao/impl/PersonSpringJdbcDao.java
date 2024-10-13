@@ -1,8 +1,8 @@
-package org.nakoual.hibernate1.dao.impl;
+package org.nakoual.hibernatedemo.dao.impl;
 
-import org.nakoual.hibernate1.dao.PersonDao;
-import org.nakoual.hibernate1.entity.Person;
-import org.nakoual.hibernate1.mapper.PersonRowMapper;
+import org.nakoual.hibernatedemo.dao.PersonDao;
+import org.nakoual.hibernatedemo.entity.Person;
+import org.nakoual.hibernatedemo.mapper.PersonRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

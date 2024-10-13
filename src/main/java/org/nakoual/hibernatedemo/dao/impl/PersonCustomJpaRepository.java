@@ -1,4 +1,4 @@
-package org.nakoual.hibernate1.dao.impl;
+package org.nakoual.hibernatedemo.dao.impl;
 
 
 import jakarta.persistence.EntityManager;
@@ -6,8 +6,8 @@ import jakarta.persistence.EntityNotFoundException;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
-import org.nakoual.hibernate1.dao.PersonDao;
-import org.nakoual.hibernate1.entity.Person;
+import org.nakoual.hibernatedemo.dao.PersonDao;
+import org.nakoual.hibernatedemo.entity.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

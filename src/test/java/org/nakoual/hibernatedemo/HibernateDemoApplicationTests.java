@@ -1,4 +1,4 @@
-package org.nakoual.hibernate1;
+package org.nakoual.hibernatedemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
